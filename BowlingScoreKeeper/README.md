@@ -30,27 +30,26 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 
 # Checklist
+
+For each test case, use the following guidelines:
+## Each Test Case - Should Do
+- [ ] The unit test is annotated with @Test.
+- [ ] The unit test is executable (e.g., via “Run as JUnit Test”)
+- [ ] The unit test has at least one assert statement (e.g., **assertTrue**, **assertFalse**, **assertEquals**) ([click for tutorials](https://www.baeldung.com/junit-assertions)) , or it asserts an exception is thrown (e.g., **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, **assertThrows** in JUnit 5) ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
+- [ ] The unit test evaluates/tests only one method
+## Each Test Case - Could Do
+- [ ] If there are too many assert statements, split it up (e.g., using **@Before** when there are more than five assertions)
+- [ ] The unit test is descriptively named and commented
+
+Considering the entire test suite (all your test cases together), use the following guidelines: 
 ## Test Suite - Should Do
-- [ ] I have carefully read the project specifications/requirements, as well as the setups in the test code (e.g., **@Before**, which runs before each **@Test**)
-- [ ] I understand what are expected program behaviors (expected outputs) under certain circumstances (inputs), and my unit tests accurately reflect the intended testing scenarios
-- [ ] I have written unit tests to test
+- [ ] Ensure each requirement is tested
+- [ ] Ensure the setup and teardown code with the test suite is used appropriately (e.g., **@Before**, which runs before each **@Test**)
+- [ ] For each bug in the code, ensure there is a fault-revealing test (i.e., one that fails)
+- [ ] For each requirement, ensure unit tests exist for:
   - [ ] Valid inputs
   - [ ] Boundary cases
   - [ ] Invalid inputs
   - [ ] Expected exceptions
-## Test Suite - Chould Do
-- [ ]
-## Test Case - Should Do
-- [ ] I have checked that every unit test is annotated with @Test.
-- [ ] I have run my unit tests via “Run as JUnit Test”, and they either
-  - [ ] pass consistently, or
-  - [ ] reveal the presence of a bug in the source code
-- [ ] I have checked that each unit test and it
-  - [ ] has at least one assert statement (e.g., **assertTrue**, **assertFalse**, **assertEquals**) ([click for tutorials](https://www.baeldung.com/junit-assertions)) , or 
-  - [ ] asserts an exception is thrown (e.g., **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, **assertThrows** in JUnit 5) ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
-- [ ] I have tested only one method per unit test
-## Test Case - Chould Do
-- [ ] I have split up the unit tests that contains too many assert statements (e.g., split via **@Before** when there are more than five assertions)
-- [ ] I have descriptively and explicitly
-  - [ ] named my unit tests
-  - [ ] commented my unit tests
+## Test Suite - Could Do
+- [ ] Measure code coverage using an appropriate tool, such as EclEmma ([installation](https://www.eclemma.org/installation.html), [tutorial](https://www.eclipse.org/community/eclipse_newsletter/2015/august/article1.php)). Inspect uncovered code and write tests as appropriate.
