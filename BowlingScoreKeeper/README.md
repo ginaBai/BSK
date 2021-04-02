@@ -33,7 +33,7 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 For each test case, use the following guidelines:
 ## Each Test Case - Should Do
-- [ ] The unit test is annotated with @Test.
+- [ ] The unit test is annotated with **@Test**.
 - [ ] The unit test is executable (e.g., via “Run as JUnit Test”)
 - [ ] The unit test has at least one assert statement (e.g., **assertTrue**, **assertFalse**, **assertEquals**) ([click for tutorials](https://www.baeldung.com/junit-assertions)) , or it asserts an exception is thrown (e.g., **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, **assertThrows** in JUnit 5) ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
 - [ ] The unit test evaluates/tests only one method
