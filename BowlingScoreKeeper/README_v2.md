@@ -44,7 +44,7 @@ After you have installed the plugin, you can run the tests via: right click on t
 
 ![TreeView](https://github.com/ginaBai/BSK/blob/master/BowlingScoreKeeper/EclEmmaTreeView.png)
 
-This view shows different coverage metrics (instructions, branches, cyclomatic complexity, lines, methods, classes) and allows drilling-down from project to method level.
+This view shows different coverage metrics (instructions, branches, lines...) and allows drilling-down from project to method level.
 
 ![CodeView](https://github.com/ginaBai/BSK/blob/master/BowlingScoreKeeper/EclEmmaCodeView.png)
 
