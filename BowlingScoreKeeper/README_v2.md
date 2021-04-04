@@ -30,8 +30,10 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 
 # Java Code Coverage Tool - EclEmma
+During unit testing, use the Java code coverage tool EclEmma to measure the execute code. A statement/line coverage of 80% on every non-test class is highly recommended. 
+
 ## Setup Instruction
-EclEmma measures executed code (called coverage). EclEmma comes installed on some versions of Eclipse, such as Eclipse Photon. You may also install EclEmma via Eclipse Marketplace. [Click for the offical installation instruction](https://www.eclemma.org/installation.html)  
+EclEmma comes installed on some versions of Eclipse, such as Eclipse Photon. You may also install EclEmma via Eclipse Marketplace. [Click for the offical installation instruction](https://www.eclemma.org/installation.html)  
 
 - My preferred installation option: Eclipse > Help > Eclipse Marketplace > Search for "EclEmma" > Hit Install for the entry "EclEmma Java Code Coverage" > Follow the steps in the installation wizard
 
