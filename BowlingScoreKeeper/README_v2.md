@@ -50,7 +50,7 @@ This view shows different coverage metrics (instructions, branches, lines...) an
 
 In addition, EclEmma highlights the execution status directly in the Java source editors, where
 - Green lines were fully executed. 
-  - In this case, the method `score()` is fully tested with the provided example tests.
+  - In this case, the method `score()` is fully tested with the provided example tests (in `test.java`).
 - Yellow lines were executed partially only. Little diamonds symbols in the editor's ruler (on the left to the source code), show the execution status of branches in your code. 
   - In this case, 2 of 4 branches missed in line 11, as the provided example tests only checked two branches: 1) `secondThrow > 10` is false , 2) `secondThrow < 0` is false.
 - Red lines were not hit at all. 
