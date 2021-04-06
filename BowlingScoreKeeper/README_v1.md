@@ -48,9 +48,9 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 ### The test suite *should*:
 - [ ] have at least one test for each requirement
-- [ ] appropriate use the setup and teardown code (e.g., **@Before**, which runs before each **@Test**)
+- [ ] appropriately use the setup and teardown code (e.g., **@Before**, which runs before each **@Test**)
 - [ ] contain a fault-revealing test for each bug in the code (i.e., a test that fails)
-- [ ] For each requirement, contain unit tests exist for:
+- [ ] For each requirement, contain unit tests for:
   - [ ] Valid inputs
   - [ ] Boundary cases
   - [ ] Invalid inputs
