@@ -29,9 +29,11 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 [Online Bowling Game Score Calculator](https://bowlinggenius.com)
 
 
-# Checklist
+# Checklists
 
-## For each test case, use the following guidelines:
+Use the following checklists to improve the quality of your test suite. 
+
+## Test Case Checklist
 
 ### Each test case *should*:
 - [ ] be executable (i.e., it has an **@Test** annotation and can be run via “Run as JUnit Test”)
@@ -44,7 +46,7 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 - [ ] If there are too many assert statements in a single test case (e.g., more than 5), you might split it up so each test evaluates one behavior.
 
 
-## For the entire test suite (all your test cases together), use the following guidelines: 
+## Test Suite Checklist
 
 ### The test suite *should*:
 - [ ] have at least one test for each requirement
