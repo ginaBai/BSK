@@ -38,7 +38,7 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 - [ ] have at least one assert statement or assert an exception is thrown. Example assert statements include: **assertTrue**, **assertFalse**, and **assertEquals** ([click for tutorials](https://www.baeldung.com/junit-assertions)). For asserting an exception is thrown, there are different approaches: **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, or **assertThrows** in JUnit 5 ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
 - [ ]  evaluate/test only one method
 
-## Each test case *could*:
+### Each test case *could*:
 - [ ] be descriptively named and commented
 - [ ] If there is redundant setup code in multiple test cases, extract it into a common method (e.g., using **@Before**)
 - [ ] If there are too many assert statements in a single test case (e.g., more than 5), you might split it up so each test evaluates one behavior.
