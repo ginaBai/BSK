@@ -30,7 +30,7 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 
 # Java Code Coverage Tool - EclEmma
-During unit testing, use the Java code coverage tool EclEmma to measure the execute code. A statement/line coverage of 80% on every non-test class is highly recommended. 
+During unit testing, use the Java code coverage tool EclEmma to measure the executed code. A statement/line coverage of 80% on every non-test class is highly recommended. 
 
 ## Setup Instruction
 EclEmma comes installed on some versions of Eclipse, such as Eclipse Photon. You may also install EclEmma via Eclipse Marketplace. [Click for the offical installation instruction](https://www.eclemma.org/installation.html)  
@@ -55,3 +55,8 @@ In addition, EclEmma highlights the execution status directly in the Java source
   - In this case, 2 of 4 branches missed in line 11, as the provided example tests only checked two branches: 1) `secondThrow > 10` is false , 2) `secondThrow < 0` is false.
 - Red lines were not hit at all. 
   - In this case, no exception is thrown given the provided example tests. 
+
+# Additional Reading Materials
+[Assertions in JUnit 4 and 5](https://www.baeldung.com/junit-assertions)
+
+[Assert an Exception is Thrown in JUnit 4 and 5](https://www.baeldung.com/junit-assert-exception)
