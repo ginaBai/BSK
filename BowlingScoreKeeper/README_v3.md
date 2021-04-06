@@ -27,3 +27,8 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 [Click for Detailed Rules and Examples of Scoring a Game of Bowling](https://slocums.homestead.com/gamescore.html)
 
 [Online Bowling Game Score Calculator](https://bowlinggenius.com)
+
+# Additional Reading Materials
+[Assertions in JUnit 4 and 5](https://www.baeldung.com/junit-assertions)
+
+[Assert an Exception is Thrown in JUnit 4 and 5](https://www.baeldung.com/junit-assert-exception)
