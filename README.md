@@ -19,7 +19,7 @@ To setup, please follow the steps below:
 Congratulations, you are ready to start!!! 
 
 ## Task Requirement
-Please read through the description of the [Bowling Score Keeper](https://github.com/ginaBai/BSK/blob/master/BowlingScoreKeeper/README.md) and follow the instructions to complete this task. 
+Please read through the description of the [Bowling Score Keeper](https://github.com/ginaBai/BSK/tree/master/BowlingScoreKeeper) and follow the instructions to complete this task. 
 
 ## Submission Instruction
 When finished, please follow the steps below:
