@@ -31,24 +31,29 @@ In the tenth frame, a player who rolls a spare or strike is allowed to have bonu
 
 # Checklist
 
-For each test case, use the following guidelines:
-## Each Test Case - Should Do
-- [ ] The unit test is executable (i.e., it has an **@Test** annotation and can be run via “Run as JUnit Test”)
-- [ ] The unit test has at least one assert statement (e.g., **assertTrue**, **assertFalse**, **assertEquals**)([click for tutorials](https://www.baeldung.com/junit-assertions)) , or it asserts an exception is thrown (e.g., **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, **assertThrows** in JUnit 5) ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
-- [ ] The unit test evaluates/tests only one method
-## Each Test Case - Could Do
-- [ ] If there is redundant setup code in multiple test cases, split it up (e.g., using **@Before**)
-- [ ] The unit test is descriptively named and commented
+## For each test case, use the following guidelines:
 
-Considering the entire test suite (all your test cases together), use the following guidelines: 
-## Test Suite - Should Do
-- [ ] Ensure each requirement is tested
-- [ ] Ensure the setup and teardown code with the test suite is used appropriately (e.g., **@Before**, which runs before each **@Test**)
-- [ ] For each bug in the code, ensure there is a fault-revealing test (i.e., one that fails)
-- [ ] For each requirement, ensure unit tests exist for:
+### Each test case *should*:
+- [ ] be executable (i.e., it has an **@Test** annotation and can be run via “Run as JUnit Test”)
+- [ ] have at least one assert statement or assert an exception is thrown. Example assert statements include: **assertTrue**, **assertFalse**, and **assertEquals** ([click for tutorials](https://www.baeldung.com/junit-assertions)). For asserting an exception is thrown, there are different approaches: **try{...; fail();} catch(Exception e){assertThat...;}**, **@Test(expected = exception.class)** in JUnit 4, or **assertThrows** in JUnit 5 ([click for tutorials](https://www.baeldung.com/junit-assert-exception)). 
+- [ ]  evaluate/test only one method
+
+## Each test case *could*:
+- [ ] be descriptively named and commented
+- [ ] If there is redundant setup code in multiple test cases, extract it into a common method (e.g., using **@Before**)
+- [ ] If there are too many assert statements in a single test case (e.g., more than 5), you might split it up so each test evaluates one behavior.
+
+
+## For the entire test suite (all your test cases together), use the following guidelines: 
+
+### The test suite *should*:
+- [ ] have at least one test for each requirement
+- [ ] appropriate use the setup and teardown code (e.g., **@Before**, which runs before each **@Test**)
+- [ ] contain a fault-revealing test for each bug in the code (i.e., a test that fails)
+- [ ] For each requirement, contain unit tests exist for:
   - [ ] Valid inputs
   - [ ] Boundary cases
   - [ ] Invalid inputs
   - [ ] Expected exceptions
-## Test Suite - Could Do
-- [ ] Measure code coverage using an appropriate tool, such as EclEmma ([installation](https://www.eclemma.org/installation.html), [tutorial](https://www.eclipse.org/community/eclipse_newsletter/2015/august/article1.php)). Inspect uncovered code and write tests as appropriate.
+### To improve the test suite, you *could*:
+- [ ] measure code coverage using an appropriate tool, such as EclEmma ([installation](https://www.eclemma.org/installation.html), [tutorial](https://www.eclipse.org/community/eclipse_newsletter/2015/august/article1.php)). Inspect uncovered code and write tests as appropriate.
